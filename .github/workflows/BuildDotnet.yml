@@ -21,8 +21,8 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore ToDo-backend.csproj
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build ToDo-backend.csproj --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test ToDo-backend.csproj --no-build --verbosity normal
