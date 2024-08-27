@@ -1,0 +1,1280 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\controllers\\confirmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:controllers\\confirmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moham\\source\\repos\\ToDo-frontend\\todo-frontend.esproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\todo-backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:todo-backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\services\\services implementation\\passwordresetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:services\\services implementation\\passwordresetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\controllers\\resetpasswordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:controllers\\resetpasswordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\services\\services implementation\\usertaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:services\\services implementation\\usertaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\controllers\\useroperationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:controllers\\useroperationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\services\\services implementation\\confirmationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:services\\services implementation\\confirmationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\services\\services interface\\iconfirmationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:services\\services interface\\iconfirmationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\services\\services implementation\\registrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:services\\services implementation\\registrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\services\\services implementation\\scopefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:services\\services implementation\\scopefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\services\\services interface\\iscopefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:services\\services interface\\iscopefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\services\\services implementation\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:services\\services implementation\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\repositories\\usertaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:repositories\\usertaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\repositories\\interfaces\\iusertaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:repositories\\interfaces\\iusertaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\services\\services implementation\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:services\\services implementation\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\services\\services implementation\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:services\\services implementation\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\services\\services interface\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:services\\services interface\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\services\\services interface\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:services\\services interface\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\services\\services implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:services\\services implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\services\\services implementation\\tokenblacklistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:services\\services implementation\\tokenblacklistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\services\\services implementation\\errorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:services\\services implementation\\errorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\services\\services implementation\\codegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:services\\services implementation\\codegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\services\\services implementation\\backgroundtaskqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:services\\services implementation\\backgroundtaskqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\services\\services interface\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:services\\services interface\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\services\\services interface\\ipasswordresetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:services\\services interface\\ipasswordresetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\utilities\\operationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:utilities\\operationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\models\\dto\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:models\\dto\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\models\\usertask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:models\\usertask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\models\\dto\\confirmemaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:models\\dto\\confirmemaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\middleware\\useroperationsmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:middleware\\useroperationsmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\middleware\\logininterceptormiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:middleware\\logininterceptormiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\services\\services interface\\iusertaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:services\\services interface\\iusertaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\middleware\\useroperationsmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:middleware\\useroperationsmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moham\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@types\\bootstrap\\js\\dist\\dropdown.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\middleware\\logininterceptormiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:middleware\\logininterceptormiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moham\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@types\\bootstrap\\js\\dist\\tooltip.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moham\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@types\\react-bootstrap\\index.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\services\\services interface\\itokenblacklistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:services\\services interface\\itokenblacklistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\services\\services interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:services\\services interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moham\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@popperjs\\core\\index.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\models\\dto\\emaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:models\\dto\\emaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\models\\dto\\resendconfirmationcodedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:models\\dto\\resendconfirmationcodedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moham\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@types\\react\\index.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\testting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:testting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\.gitattributes||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:.gitattributes||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\models\\dto\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:models\\dto\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moham\\source\\repos\\ToDo\\Migrations\\20240603113147_AddDateTime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moham\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\build\\Container.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\migrations\\20240608154850_makeconfirmationcodenullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:migrations\\20240608154850_makeconfirmationcodenullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\models\\dto\\passwordresetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:models\\dto\\passwordresetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\migrations\\20240608125957_addresetcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:migrations\\20240608125957_addresetcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\migrations\\20240608121535_addisloggedincolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:migrations\\20240608121535_addisloggedincolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\services\\services interface\\iemailconfirmationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:services\\services interface\\iemailconfirmationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|c:\\users\\moham\\source\\repos\\todo-backend\\services\\services implementation\\emailconfirmationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882731E0-4DAA-4DB2-A787-EAEAACED25A6}|ToDo-backend.csproj|solutionrelative:services\\services implementation\\emailconfirmationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\moham\\source\\repos\\todo-frontend\\src\\signup.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\moham\\source\\repos\\todo-frontend\\src\\confirmemail.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\moham\\source\\repos\\todo-frontend\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\moham\\source\\repos\\todo-frontend\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\moham\\source\\repos\\todo-frontend\\src\\logouthandler.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\moham\\source\\repos\\todo-frontend\\src\\login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\moham\\source\\repos\\todo-frontend\\src\\components\\addtaskform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\moham\\source\\repos\\todo-frontend\\src\\board.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\moham\\source\\repos\\todo-frontend\\src\\components\\tasklist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\moham\\source\\repos\\todo-frontend\\src\\axiosinstance.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\moham\\source\\repos\\todo-frontend\\src\\logouthandler.jsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\moham\\source\\repos\\todo-frontend\\src\\resetpasswordrequest.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\moham\\source\\repos\\todo-frontend\\src\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\moham\\source\\repos\\todo-frontend\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\moham\\source\\repos\\todo-frontend\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AQIAADIAAADQMTMzMzMpwEIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T12:01:46.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ToDo-backend.csproj",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\ToDo-backend.csproj",
+              "RelativeDocumentMoniker": "ToDo-backend.csproj",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\ToDo-backend.csproj",
+              "RelativeToolTip": "ToDo-backend.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-10T11:49:50.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "todo-frontend.esproj",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-frontend\\todo-frontend.esproj",
+              "RelativeDocumentMoniker": "..\\ToDo-frontend\\todo-frontend.esproj",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-frontend\\todo-frontend.esproj",
+              "RelativeToolTip": "..\\ToDo-frontend\\todo-frontend.esproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-07T09:33:39.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConfirmController.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Controllers\\ConfirmController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ConfirmController.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Controllers\\ConfirmController.cs",
+              "RelativeToolTip": "Controllers\\ConfirmController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T06:54:40.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PasswordResetService.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\PasswordResetService.cs",
+              "RelativeDocumentMoniker": "Services\\Services Implementation\\PasswordResetService.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\PasswordResetService.cs",
+              "RelativeToolTip": "Services\\Services Implementation\\PasswordResetService.cs",
+              "ViewState": "AQIAAAcAAAAAMjMzMzMjwBEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T13:03:04.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ResetPasswordController.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Controllers\\ResetPasswordController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ResetPasswordController.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Controllers\\ResetPasswordController.cs",
+              "RelativeToolTip": "Controllers\\ResetPasswordController.cs",
+              "ViewState": "AQIAACIAAACA/v////8dwC0AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T13:16:04.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "SignUp.jsx",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\SignUp.jsx",
+              "RelativeDocumentMoniker": "..\\ToDo\\ToDo-frontend\\src\\SignUp.jsx",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\SignUp.jsx",
+              "RelativeToolTip": "..\\ToDo\\ToDo-frontend\\src\\SignUp.jsx",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAmwF8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-09T09:39:41.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ConfirmEmail.jsx",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\ConfirmEmail.jsx",
+              "RelativeDocumentMoniker": "..\\ToDo\\ToDo-frontend\\src\\ConfirmEmail.jsx",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\ConfirmEmail.jsx",
+              "RelativeToolTip": "..\\ToDo\\ToDo-frontend\\src\\ConfirmEmail.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-09T11:47:35.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAEMAAACAi5mZmZkBwFMAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T11:01:41.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "IEmailConfirmationService.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Interface\\IEmailConfirmationService.cs",
+              "RelativeDocumentMoniker": "Services\\Services Interface\\IEmailConfirmationService.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Interface\\IEmailConfirmationService.cs",
+              "RelativeToolTip": "Services\\Services Interface\\IEmailConfirmationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:47:58.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "EmailConfirmationService.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\EmailConfirmationService.cs",
+              "RelativeDocumentMoniker": "Services\\Services Implementation\\EmailConfirmationService.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\EmailConfirmationService.cs",
+              "RelativeToolTip": "Services\\Services Implementation\\EmailConfirmationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:48:28.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SignUpController.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Controllers\\SignUpController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SignUpController.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Controllers\\SignUpController.cs",
+              "RelativeToolTip": "Controllers\\SignUpController.cs",
+              "ViewState": "AQIAAAkAAAAAZWZmZmYUwBMAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T11:26:35.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserTaskService.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\UserTaskService.cs",
+              "RelativeDocumentMoniker": "Services\\Services Implementation\\UserTaskService.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\UserTaskService.cs",
+              "RelativeToolTip": "Services\\Services Implementation\\UserTaskService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T14:29:51.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserOperationController.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Controllers\\UserOperationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserOperationController.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Controllers\\UserOperationController.cs",
+              "RelativeToolTip": "Controllers\\UserOperationController.cs",
+              "ViewState": "AQIAAAAAAAAAwJiZmZnJvygAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T14:30:33.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConfirmationService.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\ConfirmationService.cs",
+              "RelativeDocumentMoniker": "Services\\Services Implementation\\ConfirmationService.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\ConfirmationService.cs",
+              "RelativeToolTip": "Services\\Services Implementation\\ConfirmationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T14:50:05.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IConfirmationService.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Interface\\IConfirmationService.cs",
+              "RelativeDocumentMoniker": "Services\\Services Interface\\IConfirmationService.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Interface\\IConfirmationService.cs",
+              "RelativeToolTip": "Services\\Services Interface\\IConfirmationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T06:43:23.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegistrationService.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\RegistrationService.cs",
+              "RelativeDocumentMoniker": "Services\\Services Implementation\\RegistrationService.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\RegistrationService.cs",
+              "RelativeToolTip": "Services\\Services Implementation\\RegistrationService.cs",
+              "ViewState": "AQIAACcAAACArczMzMz8vzIAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T05:54:03.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ScopeFactory.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\ScopeFactory.cs",
+              "RelativeDocumentMoniker": "Services\\Services Implementation\\ScopeFactory.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\ScopeFactory.cs",
+              "RelativeToolTip": "Services\\Services Implementation\\ScopeFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T08:13:02.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IScopeFactory.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Interface\\IScopeFactory.cs",
+              "RelativeDocumentMoniker": "Services\\Services Interface\\IScopeFactory.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Interface\\IScopeFactory.cs",
+              "RelativeToolTip": "Services\\Services Interface\\IScopeFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T08:12:40.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "Services\\Services Implementation\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\AuthenticationService.cs",
+              "RelativeToolTip": "Services\\Services Implementation\\AuthenticationService.cs",
+              "ViewState": "AQIAAAgAAAAALzMzMzMbwBMAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T09:56:32.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAArwBYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T19:28:01.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserTaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Repositories\\UserTaskRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserTaskRepository.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Repositories\\UserTaskRepository.cs",
+              "RelativeToolTip": "Repositories\\UserTaskRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T19:28:44.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T14:36:22.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IUserTaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Repositories\\Interfaces\\IUserTaskRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IUserTaskRepository.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Repositories\\Interfaces\\IUserTaskRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IUserTaskRepository.cs",
+              "ViewState": "AQIAAAgAAAAwzMzMzMwxwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T19:28:23.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\EmailService.cs",
+              "RelativeDocumentMoniker": "Services\\Services Implementation\\EmailService.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\EmailService.cs",
+              "RelativeToolTip": "Services\\Services Implementation\\EmailService.cs",
+              "ViewState": "AQIAAAYAAAAAOTMzMzPzvwkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T10:02:27.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T19:27:43.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\TaskService.cs",
+              "RelativeDocumentMoniker": "Services\\Services Implementation\\TaskService.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\TaskService.cs",
+              "RelativeToolTip": "Services\\Services Implementation\\TaskService.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAlwD0AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T14:29:48.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Interface\\ITaskService.cs",
+              "RelativeDocumentMoniker": "Services\\Services Interface\\ITaskService.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Interface\\ITaskService.cs",
+              "RelativeToolTip": "Services\\Services Interface\\ITaskService.cs",
+              "ViewState": "AQIAAAQAAADg/v////8gwAsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T09:32:05.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Interface\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "Services\\Services Interface\\IAuthenticationService.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Interface\\IAuthenticationService.cs",
+              "RelativeToolTip": "Services\\Services Interface\\IAuthenticationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T09:56:33.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\Services Implementation\\UserService.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\UserService.cs",
+              "RelativeToolTip": "Services\\Services Implementation\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T14:29:50.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TokenBlackListService.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\TokenBlackListService.cs",
+              "RelativeDocumentMoniker": "Services\\Services Implementation\\TokenBlackListService.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\TokenBlackListService.cs",
+              "RelativeToolTip": "Services\\Services Implementation\\TokenBlackListService.cs",
+              "ViewState": "AQIAAAkAAAAQAAAAAAAjwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T10:13:51.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ErrorHandler.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\ErrorHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Services Implementation\\ErrorHandler.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\ErrorHandler.cs",
+              "RelativeToolTip": "Services\\Services Implementation\\ErrorHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T08:08:26.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CodeGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\CodeGenerator.cs",
+              "RelativeDocumentMoniker": "Services\\Services Implementation\\CodeGenerator.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\CodeGenerator.cs",
+              "RelativeToolTip": "Services\\Services Implementation\\CodeGenerator.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAkAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T13:06:06.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BackgroundTaskQueue.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\BackgroundTaskQueue.cs",
+              "RelativeDocumentMoniker": "Services\\Services Implementation\\BackgroundTaskQueue.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Implementation\\BackgroundTaskQueue.cs",
+              "RelativeToolTip": "Services\\Services Implementation\\BackgroundTaskQueue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T13:52:15.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAADwAAAAAemZmZmYUwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-08T16:03:36.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAoAAABIY2ZmZmYjwBMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T12:14:44.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Interface\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Services\\Services Interface\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Interface\\IEmailService.cs",
+              "RelativeToolTip": "Services\\Services Interface\\IEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T10:01:23.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IPasswordResetService.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Interface\\IPasswordResetService.cs",
+              "RelativeDocumentMoniker": "Services\\Services Interface\\IPasswordResetService.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Interface\\IPasswordResetService.cs",
+              "RelativeToolTip": "Services\\Services Interface\\IPasswordResetService.cs",
+              "ViewState": "AQIAAAEAAAAAMjMzMzMPwAcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T13:01:22.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserRegistrationDto.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Models\\DTO\\UserRegistrationDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\UserRegistrationDto.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Models\\DTO\\UserRegistrationDto.cs",
+              "RelativeToolTip": "Models\\DTO\\UserRegistrationDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T06:21:30.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "OperationResult.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Utilities\\OperationResult.cs",
+              "RelativeDocumentMoniker": "Utilities\\OperationResult.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Utilities\\OperationResult.cs",
+              "RelativeToolTip": "Utilities\\OperationResult.cs",
+              "ViewState": "AQIAAAwAAADALjMzMzMpwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T08:46:39.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UserTask.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Models\\UserTask.cs",
+              "RelativeDocumentMoniker": "Models\\UserTask.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Models\\UserTask.cs",
+              "RelativeToolTip": "Models\\UserTask.cs",
+              "ViewState": "AQIAAAgAAACAl5mZmRk6wAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T10:11:38.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-08T16:00:09.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ConfirmEmailDto.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Models\\DTO\\ConfirmEmailDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\ConfirmEmailDto.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Models\\DTO\\ConfirmEmailDto.cs",
+              "RelativeToolTip": "Models\\DTO\\ConfirmEmailDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T10:10:22.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "dropdown.d.ts",
+              "DocumentMoniker": "C:\\Users\\moham\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@types\\bootstrap\\js\\dist\\dropdown.d.ts",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@types\\bootstrap\\js\\dist\\dropdown.d.ts",
+              "ToolTip": "C:\\Users\\moham\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@types\\bootstrap\\js\\dist\\dropdown.d.ts",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@types\\bootstrap\\js\\dist\\dropdown.d.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-10T09:31:49.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UserOperationsMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Middleware\\UserOperationsMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\UserOperationsMiddleware.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Middleware\\UserOperationsMiddleware.cs",
+              "RelativeToolTip": "Middleware\\UserOperationsMiddleware.cs",
+              "ViewState": "AQIAAAoAAAAAMTMzMzMswBQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T13:55:00.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "LoginInterceptorMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Middleware\\LoginInterceptorMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\LoginInterceptorMiddleware.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Middleware\\LoginInterceptorMiddleware.cs",
+              "RelativeToolTip": "Middleware\\LoginInterceptorMiddleware.cs",
+              "ViewState": "AQIAABYAAAAAzczMzMwpwBgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T11:50:37.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IUserTaskService.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Interface\\IUserTaskService.cs",
+              "RelativeDocumentMoniker": "Services\\Services Interface\\IUserTaskService.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Interface\\IUserTaskService.cs",
+              "RelativeToolTip": "Services\\Services Interface\\IUserTaskService.cs",
+              "ViewState": "AQIAAAIAAACQLzMzMzMbwAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T09:31:10.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UserOperationsMiddlewareExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Middleware\\UserOperationsMiddlewareExtensions.cs",
+              "RelativeDocumentMoniker": "Middleware\\UserOperationsMiddlewareExtensions.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Middleware\\UserOperationsMiddlewareExtensions.cs",
+              "RelativeToolTip": "Middleware\\UserOperationsMiddlewareExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T13:57:38.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LoginInterceptorMiddlewareExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Middleware\\LoginInterceptorMiddlewareExtensions.cs",
+              "RelativeDocumentMoniker": "Middleware\\LoginInterceptorMiddlewareExtensions.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Middleware\\LoginInterceptorMiddlewareExtensions.cs",
+              "RelativeToolTip": "Middleware\\LoginInterceptorMiddlewareExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T11:50:50.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "tooltip.d.ts",
+              "DocumentMoniker": "C:\\Users\\moham\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@types\\bootstrap\\js\\dist\\tooltip.d.ts",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@types\\bootstrap\\js\\dist\\tooltip.d.ts",
+              "ToolTip": "C:\\Users\\moham\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@types\\bootstrap\\js\\dist\\tooltip.d.ts",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@types\\bootstrap\\js\\dist\\tooltip.d.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-10T09:32:30.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "index.d.ts",
+              "DocumentMoniker": "C:\\Users\\moham\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@types\\react-bootstrap\\index.d.ts",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@types\\react-bootstrap\\index.d.ts",
+              "ToolTip": "C:\\Users\\moham\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@types\\react-bootstrap\\index.d.ts",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@types\\react-bootstrap\\index.d.ts",
+              "ViewState": "AQIAABQAAAAAAAAAAAAgwB0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-10T09:36:40.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Interface\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\Services Interface\\IUserService.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Interface\\IUserService.cs",
+              "RelativeToolTip": "Services\\Services Interface\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T09:32:03.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ITokenBlackListService.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Interface\\ITokenBlackListService.cs",
+              "RelativeDocumentMoniker": "Services\\Services Interface\\ITokenBlackListService.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Services\\Services Interface\\ITokenBlackListService.cs",
+              "RelativeToolTip": "Services\\Services Interface\\ITokenBlackListService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T10:12:44.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "index.d.ts",
+              "DocumentMoniker": "C:\\Users\\moham\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@popperjs\\core\\index.d.ts",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@popperjs\\core\\index.d.ts",
+              "ToolTip": "C:\\Users\\moham\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@popperjs\\core\\index.d.ts",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@popperjs\\core\\index.d.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-10T09:30:28.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "EmailDto.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Models\\DTO\\EmailDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\EmailDto.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Models\\DTO\\EmailDto.cs",
+              "RelativeToolTip": "Models\\DTO\\EmailDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T13:17:47.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "main.jsx",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\main.jsx",
+              "RelativeDocumentMoniker": "..\\ToDo\\ToDo-frontend\\src\\main.jsx",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\main.jsx",
+              "RelativeToolTip": "..\\ToDo\\ToDo-frontend\\src\\main.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-08T16:44:55.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\App.jsx",
+              "RelativeDocumentMoniker": "..\\ToDo\\ToDo-frontend\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\App.jsx",
+              "RelativeToolTip": "..\\ToDo\\ToDo-frontend\\src\\App.jsx",
+              "ViewState": "AQIAABQAAABQZmZmZmYwwA0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-08T16:44:59.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "LogoutHandler.jsx",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\LogoutHandler.jsx",
+              "RelativeDocumentMoniker": "..\\ToDo\\ToDo-frontend\\src\\LogoutHandler.jsx",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\LogoutHandler.jsx",
+              "RelativeToolTip": "..\\ToDo\\ToDo-frontend\\src\\LogoutHandler.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-09T14:06:05.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Login.jsx",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\Login.jsx",
+              "RelativeDocumentMoniker": "..\\ToDo\\ToDo-frontend\\src\\Login.jsx",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\Login.jsx",
+              "RelativeToolTip": "..\\ToDo\\ToDo-frontend\\src\\Login.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-08T16:39:16.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "AddTaskForm.jsx",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\components\\AddTaskForm.jsx",
+              "RelativeDocumentMoniker": "..\\ToDo\\ToDo-frontend\\src\\components\\AddTaskForm.jsx",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\components\\AddTaskForm.jsx",
+              "RelativeToolTip": "..\\ToDo\\ToDo-frontend\\src\\components\\AddTaskForm.jsx",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAqwBoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-09T12:10:34.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Board.jsx",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\Board.jsx",
+              "RelativeDocumentMoniker": "..\\ToDo\\ToDo-frontend\\src\\Board.jsx",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\Board.jsx",
+              "RelativeToolTip": "..\\ToDo\\ToDo-frontend\\src\\Board.jsx",
+              "ViewState": "AQIAAGAAAAAAAAAAAADwv24AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-09T12:07:30.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "TaskList.jsx",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\components\\TaskList.jsx",
+              "RelativeDocumentMoniker": "..\\ToDo\\ToDo-frontend\\src\\components\\TaskList.jsx",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\components\\TaskList.jsx",
+              "RelativeToolTip": "..\\ToDo\\ToDo-frontend\\src\\components\\TaskList.jsx",
+              "ViewState": "AQIAABYAAABgAQAAAAAqwDoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-09T12:10:41.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "axiosInstance.jsx",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\axiosInstance.jsx",
+              "RelativeDocumentMoniker": "..\\ToDo\\ToDo-frontend\\src\\axiosInstance.jsx",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\axiosInstance.jsx",
+              "RelativeToolTip": "..\\ToDo\\ToDo-frontend\\src\\axiosInstance.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-07T14:45:13.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "LogoutHandler.jsx",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\LogoutHandler.jsx",
+              "RelativeDocumentMoniker": "..\\ToDo\\ToDo-frontend\\src\\LogoutHandler.jsx",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\LogoutHandler.jsx",
+              "RelativeToolTip": "..\\ToDo\\ToDo-frontend\\src\\LogoutHandler.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-09T14:02:06.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "ResetPasswordRequest.jsx",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\ResetPasswordRequest.jsx",
+              "RelativeDocumentMoniker": "..\\ToDo\\ToDo-frontend\\src\\ResetPasswordRequest.jsx",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\ResetPasswordRequest.jsx",
+              "RelativeToolTip": "..\\ToDo\\ToDo-frontend\\src\\ResetPasswordRequest.jsx",
+              "ViewState": "AQIAADoAAACAAwAAAIBJwEgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-09T11:05:04.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Login.css",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\Login.css",
+              "RelativeDocumentMoniker": "..\\ToDo\\ToDo-frontend\\src\\Login.css",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\Login.css",
+              "RelativeToolTip": "..\\ToDo\\ToDo-frontend\\src\\Login.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-08T16:40:49.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\index.css",
+              "RelativeDocumentMoniker": "..\\ToDo\\ToDo-frontend\\src\\index.css",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\index.css",
+              "RelativeToolTip": "..\\ToDo\\ToDo-frontend\\src\\index.css",
+              "ViewState": "AQIAADMAAAAAAAAAAAAgwEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-09T09:28:59.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\App.css",
+              "RelativeDocumentMoniker": "..\\ToDo\\ToDo-frontend\\src\\App.css",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo\\ToDo-frontend\\src\\App.css",
+              "RelativeToolTip": "..\\ToDo\\ToDo-frontend\\src\\App.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-09T09:32:46.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20240608154850_MakeConfirmationCodeNullable.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Migrations\\20240608154850_MakeConfirmationCodeNullable.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240608154850_MakeConfirmationCodeNullable.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Migrations\\20240608154850_MakeConfirmationCodeNullable.cs",
+              "RelativeToolTip": "Migrations\\20240608154850_MakeConfirmationCodeNullable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T15:48:50.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "PasswordResetDto.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Models\\DTO\\PasswordResetDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\PasswordResetDto.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Models\\DTO\\PasswordResetDto.cs",
+              "RelativeToolTip": "Models\\DTO\\PasswordResetDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T13:02:07.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ResendConfirmationCodeDto.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Models\\DTO\\ResendConfirmationCodeDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\ResendConfirmationCodeDto.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Models\\DTO\\ResendConfirmationCodeDto.cs",
+              "RelativeToolTip": "Models\\DTO\\ResendConfirmationCodeDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T11:20:15.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "20240608125957_AddResetCode.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Migrations\\20240608125957_AddResetCode.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240608125957_AddResetCode.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Migrations\\20240608125957_AddResetCode.cs",
+              "RelativeToolTip": "Migrations\\20240608125957_AddResetCode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T12:59:57.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "20240608121535_AddIsLoggedInColumn.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Migrations\\20240608121535_AddIsLoggedInColumn.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240608121535_AddIsLoggedInColumn.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Migrations\\20240608121535_AddIsLoggedInColumn.cs",
+              "RelativeToolTip": "Migrations\\20240608121535_AddIsLoggedInColumn.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T12:15:35.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "index.d.ts",
+              "DocumentMoniker": "C:\\Users\\moham\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@types\\react\\index.d.ts",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@types\\react\\index.d.ts",
+              "ToolTip": "C:\\Users\\moham\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@types\\react\\index.d.ts",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@types\\react\\index.d.ts",
+              "ViewState": "AQIAAM8QAAAAAAAAAAAiwNUQAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-08T11:23:51.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": ".gitattributes",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\.gitattributes",
+              "RelativeDocumentMoniker": ".gitattributes",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\.gitattributes",
+              "RelativeToolTip": ".gitattributes",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-07T14:36:35.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "testting.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\testting.cs",
+              "RelativeDocumentMoniker": "testting.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\testting.cs",
+              "RelativeToolTip": "testting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T14:36:39.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T08:25:40.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "TokenDto.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Models\\DTO\\TokenDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\TokenDto.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo-backend\\Models\\DTO\\TokenDto.cs",
+              "RelativeToolTip": "Models\\DTO\\TokenDto.cs",
+              "ViewState": "AQIAAAcAAACA//////8lwBAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T09:34:07.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20240603113147_AddDateTime.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\ToDo\\Migrations\\20240603113147_AddDateTime.cs",
+              "RelativeDocumentMoniker": "..\\ToDo\\Migrations\\20240603113147_AddDateTime.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\ToDo\\Migrations\\20240603113147_AddDateTime.cs",
+              "RelativeToolTip": "..\\ToDo\\Migrations\\20240603113147_AddDateTime.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T11:31:47.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Container.targets",
+              "DocumentMoniker": "C:\\Users\\moham\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\build\\Container.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\build\\Container.targets",
+              "ToolTip": "C:\\Users\\moham\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\build\\Container.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\build\\Container.targets",
+              "ViewState": "AQIAAOEAAAAAIDMzMzPTv9YAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-06-02T20:55:47.849Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
