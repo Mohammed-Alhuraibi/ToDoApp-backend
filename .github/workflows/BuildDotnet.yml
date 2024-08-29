@@ -1,4 +1,4 @@
-name: Build
+name: CI Pipeline
 
 on:
   push:
@@ -6,9 +6,27 @@ on:
       - main
 
 jobs:
-  build:
-    name: Build
+  test:
+    name: Run Unit Tests
     runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.x'  # Specify the .NET version you're using
+      - name: Restore dependencies
+        run: dotnet restore ToDo-backend.csproj
+      - name: Run unit tests
+        run: dotnet test ToDo-backend.csproj
+        # Replace with your actual test project path
+
+  build:
+    name: Build and Analyze
+    runs-on: windows-latest
+    needs: test  # This job will run only after the `test` job has completed successfully
     steps:
       - uses: actions/checkout@v2
         with:
