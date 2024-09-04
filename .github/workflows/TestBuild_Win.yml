@@ -114,7 +114,13 @@ jobs:
       - name: Update deployment.yaml
         run: |
           sed -i "s|image: .*$|image: ${{ env.IMAGE_TAG }}|" deployment.yaml
-  
+          
+      - name: Set up Git user
+        run: |
+          git config --global user.name "Mohammed-Alhuraibi"
+          git config --global user.email "mohammed.alhuraibi123@gmail.com"
+
+          
       - name: Commit and Push Changes
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
