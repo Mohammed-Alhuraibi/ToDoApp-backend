@@ -117,8 +117,8 @@ jobs:
   
       - name: Commit and Push Changes
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
           git add deployment.yaml
           git commit -m "Update deployment image to ${{ env.IMAGE_TAG }}"
-          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/Mohammed-Alhuraibi/deployment_test.git
+          git push https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/Mohammed-Alhuraibi/deployment_test.git
