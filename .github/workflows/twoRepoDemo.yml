@@ -1,0 +1,38 @@
+name: Build and Test Combined Repos
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout ToDoApp-backend
+        uses: actions/checkout@v3
+        with:
+          path: ./ToDoApp-backend
+
+      - name: Checkout openapi-with-nakama
+        uses: actions/checkout@v3
+        with:
+          repository: Mohammed-Alhuraibi/openapi-with-nakama
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: ./openapi-with-nakama
+
+      - name: Build and Test
+        run: |
+          # Navigate to and perform operations in openapi-with-nakama
+          cd ./openapi-with-nakama
+          # Run build/test commands for openapi-with-nakama
+          
+          # Navigate back to ToDoApp-backend
+          cd ../ToDoApp-backend
+          # Run build/test commands for ToDoApp-backend
+
+          # Example combined build/test commands if needed
