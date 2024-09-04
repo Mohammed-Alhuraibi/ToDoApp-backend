@@ -5,8 +5,7 @@ on:
     branches:
       - main
 
-permissions:
-  contents: write
+
   
 jobs:
   # test:
@@ -104,6 +103,8 @@ jobs:
           echo "IMAGE_TAG=$IMAGE_TAG" >> $GITHUB_ENV
 
   update-deployment:
+    permissions:
+      contents: write
     name: Update Deployment YAML
     runs-on: ubuntu-latest
     needs: docker
