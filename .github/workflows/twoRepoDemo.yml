@@ -1,4 +1,4 @@
-name: Build and Test Combined Repos
+name: Build and Test
 
 on:
   push:
@@ -7,6 +7,8 @@ on:
   pull_request:
     branches:
       - main
+  repository_dispatch:
+    types: [trigger-backend]
 
 jobs:
   build:
@@ -30,9 +32,7 @@ jobs:
           # Navigate to and perform operations in openapi-with-nakama
           cd ./openapi-with-nakama
           # Run build/test commands for openapi-with-nakama
-          
+
           # Navigate back to ToDoApp-backend
           cd ../ToDoApp-backend
           # Run build/test commands for ToDoApp-backend
-
-          # Example combined build/test commands if needed
