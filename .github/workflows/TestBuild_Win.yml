@@ -26,6 +26,7 @@ jobs:
   build:
     name: Build
     runs-on: windows-latest
+    needs: test  # This job will run only after the `test` job has completed successfully
     steps:
       - uses: actions/checkout@v2
         with:
