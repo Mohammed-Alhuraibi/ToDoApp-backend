@@ -98,6 +98,7 @@ jobs:
         with:
           name: incremented-tag
           path: ./  # Path to download the artifact
+        continue-on-error: true  # Continue even if artifact is not found
 
       - name: Retrieve and increment tag number
         id: get-tag
