@@ -125,7 +125,7 @@ jobs:
         if: needs.docker.result == 'success'
         run: |
           docker tag ${{ vars.IMAGE_NAME }}:build ${{ vars.IMAGE_NAME }}:github-${{ env.TAG }}
-          docker push ${{ vars.IMAGE_NAME }}:${{ env.TAG }}
+          docker push ${{ vars.IMAGE_NAME }}:github-${{ env.TAG }}
 
       - name: Upload incremented tag as artifact
         uses: actions/upload-artifact@v3
