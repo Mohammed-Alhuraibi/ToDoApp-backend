@@ -99,3 +99,27 @@ jobs:
           docker push ${{ secrets.DOCKER_USERNAME }}/${{ vars.IMAGE_NAME }}:github-${{ github.sha }}
           IMAGE_TAG="${{ secrets.DOCKER_USERNAME }}/${{ vars.IMAGE_NAME }}:github-${{ github.sha }}"
           echo "IMAGE_TAG=$IMAGE_TAG" >> $GITHUB_ENV
+
+  update-deployment:
+    name: Update Deployment YAML
+    runs-on: ubuntu-latest
+    needs: docker
+    steps:
+      - name: Checkout Public Repo
+        uses: actions/checkout@v2
+        with:
+          repository: Mohammed-Alhuraibi/deployment_test
+          path: ./
+
+      - name: Update deployment.yaml
+        run: |
+          sed -i "s|image: .*$|image: ${{ env.IMAGE_TAG }}|" deployment.yaml
+
+      - name: Commit and Push Changes
+        run: |
+          cd public-repo
+          git config --global user.email "your-email@example.com"
+          git config --global user.name "Your Name"
+          git add deployment.yaml
+          git commit -m "Update deployment image to ${{ env.IMAGE_TAG }}"
+          git push
