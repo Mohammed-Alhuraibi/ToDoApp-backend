@@ -94,7 +94,7 @@ jobs:
       - name: Build Docker image
         id: build
         run: |
-          docker build -t ${{ env.IMAGE_NAME }} .
+          docker build -t ${{ vars.IMAGE_NAME }}:build .
 
       - name: Upload Docker image as an artifact
         if: success()
@@ -129,8 +129,8 @@ jobs:
       - name: Tag and push Docker image
         if: needs.docker.result == 'success'
         run: |
-          docker tag ${{ env.IMAGE_NAME }} ${{ secrets.DOCKER_USERNAME }}/${{ env.IMAGE_NAME }}:${{ env.TAG }}
-          docker push ${{ secrets.DOCKER_USERNAME }}/${{ env.IMAGE_NAME }}:${{ env.TAG }}
+          docker tag ${{ vars.IMAGE_NAME }}:build ${{ secrets.DOCKER_USERNAME }}/${{ vars.IMAGE_NAME }}:${{ env.TAG }}
+          docker push ${{ secrets.DOCKER_USERNAME }}/${{ vars.IMAGE_NAME }}:${{ env.TAG }}
 
       - name: Upload incremented tag as artifact
         uses: actions/upload-artifact@v3
