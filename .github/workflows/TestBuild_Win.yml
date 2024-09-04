@@ -94,7 +94,7 @@ jobs:
       - name: Build Docker image
         id: build
         run: |
-          docker build -t ${{ env.IMAGE_NAME }}:build .
+          docker build -t $IMAGE_NAME:build .
 
       - name: Upload Docker image as an artifact
         if: success()
