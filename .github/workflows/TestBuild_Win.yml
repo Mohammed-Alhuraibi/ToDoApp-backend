@@ -122,7 +122,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Tag and push Docker image
-        if: needs.docker.result == 'success'
+        # if: needs.docker.result == 'success'
         run: |
           docker tag ${{ vars.IMAGE_NAME }}:build ${{ vars.IMAGE_NAME }}:github-${{ env.TAG }}
           docker push ${{ vars.IMAGE_NAME }}:github-${{ env.TAG }}
