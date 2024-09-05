@@ -93,6 +93,7 @@ jobs:
       - name: Debug Docker Job
         run: |
           echo "Output image tag: ${{ steps.set_output.outputs.image_tag }}"
+          echo "Output image tag from job: ${{ jobs.docker.outputs.image_tag }}"
 
   update-deployment:
     name: Update Deployment YAML
@@ -102,6 +103,7 @@ jobs:
       - name: Debug - Check Image Tag
         run: |
           echo "Received image tag: ${{ needs.docker.outputs.image_tag }}"
+          echo "Raw needs object: ${{ toJson(needs) }}"
       - name: Checkout Public Repo
         uses: actions/checkout@v2
         with:
