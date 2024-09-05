@@ -87,7 +87,7 @@ jobs:
           IMAGE_TAG="${{ secrets.DOCKER_USERNAME }}/${{ vars.IMAGE_NAME }}:github-${{ github.sha }}"
           docker build -t $IMAGE_TAG .
           docker push $IMAGE_TAG
-          echo "image_tag=$IMAGE_TAG" >> $GITHUB_OUTPUT
+          echo "::set-output name=image_tag::$IMAGE_TAG" 
       - name: Debug Docker Job
         run: |
           echo "Output image tag: ${{ steps.build_and_push.outputs.image_tag }}"
