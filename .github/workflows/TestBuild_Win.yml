@@ -98,7 +98,7 @@ jobs:
     needs: docker
     steps:
       - env:
-          imagetag: ${{needs.docker.outputs.imagetag}}
+          imagetag: ${{ needs.docker.outputs.imagetag }}
       - name: Checkout Public Repo
         uses: actions/checkout@v2
         with:
@@ -111,11 +111,11 @@ jobs:
           echo "Image tag to be used: $imagetag"
       - name: Update deployment.yaml
         run: |
-          sed -i "s|image: .*$|image: ${{ needs.docker.outputs.imagetag }}|" deployment.yaml
+          sed -i "s|image: .*$|image: $imagetag |" deployment.yaml
       - name: Commit and Push Changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add deployment.yaml
-          git commit -m "Update deployment image to ${{ needs.docker.outputs.imagetag }}"
+          git commit -m "Update deployment image to $imagetag"
           git push
