@@ -69,6 +69,7 @@ jobs:
   docker:
     name: Build and Push Docker Image
     runs-on: ubuntu-latest
+    needs: sonarqube
     outputs:
       image_tag: ${{ steps.build_push_image.outputs.image_tag }}
     steps:
