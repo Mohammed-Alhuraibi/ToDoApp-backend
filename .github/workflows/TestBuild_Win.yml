@@ -98,7 +98,8 @@ jobs:
     needs: docker
     steps:
       - name: Debug - Check Image Tag
-        run: echo "Received image tag: ${{ needs.docker.outputs.OUTPUT_IMAGE_TAG }}"
+        run: | 
+            echo "Received image tag: ${{ needs.docker.outputs.OUTPUT_IMAGE_TAG }}"
       - name: Checkout Public Repo
         uses: actions/checkout@v2
         with:
