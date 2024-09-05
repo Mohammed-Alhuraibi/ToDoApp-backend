@@ -71,7 +71,7 @@ jobs:
     name: Build and Push Docker Image
     runs-on: ubuntu-latest
     outputs:
-      OUTPUT_IMAGE_TAG: ${{ steps.build_and_push.outputs.OUTPUT_IMAGE_TAG }}
+      image_tag: ${{ steps.build_and_push.outputs.image_tag }}
     steps:
       - uses: actions/checkout@v2
       - name: Set up Docker Buildx
@@ -87,10 +87,10 @@ jobs:
           IMAGE_TAG="${{ secrets.DOCKER_USERNAME }}/${{ vars.IMAGE_NAME }}:github-${{ github.sha }}"
           docker build -t $IMAGE_TAG .
           docker push $IMAGE_TAG
-          echo "OUTPUT_IMAGE_TAG=$IMAGE_TAG" >> $GITHUB_OUTPUT
+          echo "image_tag=$IMAGE_TAG" >> $GITHUB_OUTPUT
       - name: Debug Docker Job
         run: |
-          echo "Output image tag: ${{ steps.build_and_push.outputs.OUTPUT_IMAGE_TAG }}"
+          echo "Output image tag: ${{ steps.build_and_push.outputs.image_tag }}"
 
   update-deployment:
     name: Update Deployment YAML
@@ -98,8 +98,8 @@ jobs:
     needs: docker
     steps:
       - name: Debug - Check Image Tag
-        run: | 
-            echo "Received image tag: ${{ needs.docker.outputs.OUTPUT_IMAGE_TAG }}"
+        run: |
+          echo "Received image tag: ${{ needs.docker.outputs.image_tag }}"
       - name: Checkout Public Repo
         uses: actions/checkout@v2
         with:
@@ -109,14 +109,14 @@ jobs:
         run: |
           echo "Current content of deployment.yaml:"
           cat deployment.yaml
-          echo "Image tag to be used: ${{ needs.docker.outputs.OUTPUT_IMAGE_TAG }}"
+          echo "Image tag to be used: ${{ needs.docker.outputs.image_tag }}"
       - name: Update deployment.yaml
         run: |
-          sed -i "s|image: .*$|image: ${{ needs.docker.outputs.OUTPUT_IMAGE_TAG }} |" deployment.yaml
+          sed -i "s|image: .*$|image: ${{ needs.docker.outputs.image_tag }}|" deployment.yaml
       - name: Commit and Push Changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add deployment.yaml
-          git commit -m "Update deployment image to ${{ needs.docker.outputs.OUTPUT_IMAGE_TAG }}"
+          git commit -m "Update deployment image to ${{ needs.docker.outputs.image_tag }}"
           git push
