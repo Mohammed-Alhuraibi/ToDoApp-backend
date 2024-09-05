@@ -71,7 +71,7 @@ jobs:
     name: Build and Push Docker Image
     runs-on: ubuntu-latest
     outputs:
-      output1: ${{ steps.build_pus_image.outputs.test }}
+      output1: ${{ steps.build_pus_image.outputs.output1 }}
     steps:
       - uses: actions/checkout@v2
       - name: Set up Docker Buildx
