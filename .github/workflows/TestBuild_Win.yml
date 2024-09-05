@@ -99,6 +99,7 @@ jobs:
     steps:
       - env:
           imagetag: ${{ needs.docker.outputs.imagetag }}
+        run: echo "$imagetag"
       - name: Checkout Public Repo
         uses: actions/checkout@v2
         with:
