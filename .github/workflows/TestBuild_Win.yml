@@ -89,10 +89,10 @@ jobs:
           docker push $IMAGE_TAG
       - name: Set output
         id: set_output
-        run: echo "image_tag=${{ secrets.DOCKER_USERNAME }}/${{ vars.IMAGE_NAME }}:github-${{ github.sha }}" >> "$GITHUB_OUTPUT"
+        run: echo "output1=${{ secrets.DOCKER_USERNAME }}/${{ vars.IMAGE_NAME }}:github-${{ github.sha }}" >> "$GITHUB_OUTPUT"
       - name: Debug Docker Job
         run: |
-          echo "Output image tag: ${{ steps.set_output.outputs.image_tag }}"
+          echo "Output image tag: ${{ steps.set_output.outputs.output1 }}"
 
   update-deployment:
     name: Update Deployment YAML
@@ -101,7 +101,7 @@ jobs:
     steps:
       - name: Debug - Check Image Tag
         run: |
-          echo "Received image tag: ${{ needs.docker.outputs.image_tag }}"
+          echo "Received image tag: ${{ needs.docker.outputs.output1 }}"
       - name: Checkout Public Repo
         uses: actions/checkout@v2
         with:
@@ -111,15 +111,15 @@ jobs:
         run: |
           echo "Current content of deployment.yaml:"
           cat deployment.yaml
-          echo "Image tag to be used: ${{ needs.docker.outputs.image_tag }}"
+          echo "Image tag to be used: ${{ needs.docker.outputs.output1 }}"
       - name: Update deployment.yaml
         run: |
-          sed -i "s|image: .*$|image: ${{ needs.docker.outputs.image_tag }}|" deployment.yaml
+          sed -i "s|image: .*$|image: ${{ needs.docker.outputs.output1 }}|" deployment.yaml
       - name: Commit and Push Changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add deployment.yaml
-          git commit -m "Update deployment image to ${{ needs.docker.outputs.image_tag }}"
+          git commit -m "Update deployment image to ${{ needs.docker.outputs.output1 }}"
           git push
 
