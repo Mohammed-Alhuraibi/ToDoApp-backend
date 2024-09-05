@@ -71,7 +71,7 @@ jobs:
     name: Build and Push Docker Image
     runs-on: ubuntu-latest
     outputs:
-      image_tag: ${{ steps.build_and_push.outputs.image_tag }}
+      imagetag: ${{ steps.build_and_push.outputs.imagetag }}
     steps:
       - uses: actions/checkout@v2
       - name: Set up Docker Buildx
@@ -84,13 +84,13 @@ jobs:
       - name: Build, Tag and push Docker image
         id: build_and_push
         run: |
-          IMAGE_TAG="${{ secrets.DOCKER_USERNAME }}/${{ vars.IMAGE_NAME }}:github-${{ github.sha }}"
-          docker build -t $IMAGE_TAG .
-          docker push $IMAGE_TAG
-          echo "::set-output name=image_tag::$IMAGE_TAG" 
+          imagetag="${{ secrets.DOCKER_USERNAME }}/${{ vars.IMAGE_NAME }}:github-${{ github.sha }}"
+          docker build -t $imagetag .
+          docker push $imagetag
+          echo "::set-output name=imagetag::$imagetag" 
       - name: Debug Docker Job
         run: |
-          echo "Output image tag: ${{ steps.build_and_push.outputs.image_tag }}"
+          echo "Output image tag: ${{ steps.build_and_push.outputs.imagetag }}"
 
   update-deployment:
     name: Update Deployment YAML
@@ -106,14 +106,14 @@ jobs:
         run: |
           echo "Current content of deployment.yaml:"
           cat deployment.yaml
-          echo "Image tag to be used: ${{ needs.docker.outputs.image_tag }}"
+          echo "Image tag to be used: ${{ needs.docker.outputs.imagetag }}"
       - name: Update deployment.yaml
         run: |
-          sed -i "s|image: .*$|image: ${{ needs.docker.outputs.image_tag }}|" deployment.yaml
+          sed -i "s|image: .*$|image: ${{ needs.docker.outputs.imagetag }}|" deployment.yaml
       - name: Commit and Push Changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add deployment.yaml
-          git commit -m "Update deployment image to ${{ needs.docker.outputs.image_tag }}"
+          git commit -m "Update deployment image to ${{ needs.docker.outputs.imagetag }}"
           git push
