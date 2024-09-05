@@ -71,7 +71,7 @@ jobs:
     name: Build and Push Docker Image
     runs-on: ubuntu-latest
     outputs:
-      image_tag: ${{ steps.set_output.outputs.image_tag }}
+      image_tag: ${{ steps.docker.outputs.image_tag }}
     steps:
       - uses: actions/checkout@v2
       - name: Set up Docker Buildx
