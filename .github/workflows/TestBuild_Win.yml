@@ -120,6 +120,8 @@ jobs:
                sed -i "s|image: .*$|image: ${{ env.IMAGE_TAG }}|" deployment.yaml
            - name: Commit and Push Changes
              run: |
+               git config --global user.name "Mohammed-Alhuraibi"
+               git config --global user.email "mohammed.alhuraibi123@gmail.com"
                git add deployment.yaml
                git commit -m "Update deployment image to ${{ env.IMAGE_TAG }}"
                git push
