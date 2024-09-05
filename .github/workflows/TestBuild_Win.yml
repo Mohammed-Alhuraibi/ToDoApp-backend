@@ -121,4 +121,10 @@ jobs:
           git add deployment.yaml
           git commit -m "Update deployment image to ${{ needs.docker.outputs.output1 }}"
           git push
-
+  job2:
+    runs-on: ubuntu-latest
+    needs: docker
+    steps:
+      - env:
+          OUTPUT1: ${{needs.docker.outputs.output1}}
+        run: echo "$OUTPUT1"
