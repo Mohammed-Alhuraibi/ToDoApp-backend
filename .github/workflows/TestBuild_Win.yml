@@ -87,7 +87,7 @@ jobs:
           imagetag="${{ secrets.DOCKER_USERNAME }}/${{ vars.IMAGE_NAME }}:github-${{ github.sha }}"
           docker build -t $imagetag .
           docker push $imagetag
-          echo "imagetag=$imagetag" >> "$GITHUB_OUTPUT"
+          echo "imagetag=$imagetag" >> $GITHUB_OUTPUT
       - name: Debug Docker Job
         run: |
           echo "Output image tag: ${{ steps.build_and_push.outputs.imagetag }}"
@@ -98,7 +98,7 @@ jobs:
     needs: docker
     steps:
       - name: Set image tag
-        run: echo "imagetag=${{ needs.docker.outputs.imagetag }}" >> $GITHUB_ENV
+        run: echo "IMAGETAG=${{ needs.docker.outputs.imagetag }}" >> $GITHUB_ENV
       - name: Checkout Public Repo
         uses: actions/checkout@v2
         with:
@@ -108,14 +108,14 @@ jobs:
         run: |
           echo "Current content of deployment.yaml:"
           cat deployment.yaml
-          echo "Image tag to be used: ${{ env.imagetag }}"
+          echo "Image tag to be used: ${{ env.IMAGETAG }}"
       - name: Update deployment.yaml
         run: |
-          sed -i "s|image: .*$|image: ${{ env.imagetag }} |" deployment.yaml
+          sed -i "s|image: .*$|image: ${{ env.IMAGETAG }} |" deployment.yaml
       - name: Commit and Push Changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add deployment.yaml
-          git commit -m "Update deployment image to ${{ env.imagetag }}"
+          git commit -m "Update deployment image to ${{ env.IMAGETAG }}"
           git push
