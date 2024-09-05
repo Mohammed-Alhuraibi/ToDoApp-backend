@@ -87,7 +87,7 @@ jobs:
           imagetag="${{ secrets.DOCKER_USERNAME }}/${{ vars.IMAGE_NAME }}:github-${{ github.sha }}"
           docker build -t $imagetag .
           docker push $imagetag
-          echo "::set-output name=imagetag::$imagetag" 
+          echo "imagetag=$imagetag"  >> "$GITHUB_OUTPUT"
       - name: Debug Docker Job
         run: |
           echo "Output image tag: ${{ steps.build_and_push.outputs.imagetag }}"
@@ -97,6 +97,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: docker
     steps:
+      - env:
+          imagetag: ${{needs.docker.outputs.imagetag}}
       - name: Checkout Public Repo
         uses: actions/checkout@v2
         with:
@@ -106,7 +108,7 @@ jobs:
         run: |
           echo "Current content of deployment.yaml:"
           cat deployment.yaml
-          echo "Image tag to be used: ${{ needs.docker.outputs.imagetag }}"
+          echo "Image tag to be used: $imagetag"
       - name: Update deployment.yaml
         run: |
           sed -i "s|image: .*$|image: ${{ needs.docker.outputs.imagetag }}|" deployment.yaml
