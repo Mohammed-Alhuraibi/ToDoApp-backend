@@ -71,7 +71,7 @@ jobs:
     name: Build and Push Docker Image
     runs-on: ubuntu-latest
     outputs:
-      image_tag: ${{ steps.docker.outputs.image_tag }}
+      image_tag: ${{ steps.build_and_push.outputs.image_tag }}
     steps:
       - uses: actions/checkout@v2
       - name: Set up Docker Buildx
@@ -87,15 +87,11 @@ jobs:
           IMAGE_TAG="${{ secrets.DOCKER_USERNAME }}/${{ vars.IMAGE_NAME }}:github-${{ github.sha }}"
           docker build -t $IMAGE_TAG .
           docker push $IMAGE_TAG
-          echo "IMAGE_TAG=$IMAGE_TAG" >> $GITHUB_ENV
-      - name: Set output
-        id: set_output
-        run: echo "image_tag=${{ env.IMAGE_TAG }}" >> $GITHUB_OUTPUT
+          echo "image_tag=$IMAGE_TAG" >> $GITHUB_OUTPUT
       - name: Debug Docker Job
         run: |
-          echo "Image tag set: ${{ env.IMAGE_TAG }}"
-          echo "Output image tag: ${{ steps.set_output.outputs.image_tag }}"
-  
+          echo "Output image tag: ${{ steps.build_and_push.outputs.image_tag }}"
+
   update-deployment:
     permissions:
       contents: write
