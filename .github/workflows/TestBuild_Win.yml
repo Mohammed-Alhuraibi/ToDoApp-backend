@@ -102,32 +102,24 @@ jobs:
           IMAGE_TAG="${{ secrets.DOCKER_USERNAME }}/${{ vars.IMAGE_NAME }}:github-${{ github.sha }}"
           echo "IMAGE_TAG=$IMAGE_TAG" >> $GITHUB_ENV
 
+          
   update-deployment:
-    permissions:
-      contents: write
-    name: Update Deployment YAML
-    runs-on: ubuntu-latest
-    needs: docker
-    steps:
-      - name: Checkout Public Repo
-        uses: actions/checkout@v2
-        with:
-          repository: Mohammed-Alhuraibi/deployment_test
-          path: ./
-  
-      - name: Update deployment.yaml
-        run: |
-          sed -i "s|image: .*$|image: ${{ env.IMAGE_TAG }}|" deployment.yaml
-          
-      - name: Set up Git user
-        run: |
-          git config --global user.name "Mohammed-Alhuraibi"
-          git config --global user.email "mohammed.alhuraibi123@gmail.com"
-          
-      - name: Commit and Push Changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
-        run: |
-          git add deployment.yaml
-          git commit -m "Update deployment image to ${{ env.IMAGE_TAG }}"
-          git push https://${{ secrets.GITHUB_TOKEN  }}@github.com/Mohammed-Alhuraibi/deployment_test.git
+         permissions:
+           contents: write
+         name: Update Deployment YAML
+         runs-on: ubuntu-latest
+         needs: docker
+         steps:
+           - name: Checkout Public Repo
+             uses: actions/checkout@v2
+             with:
+               repository: Mohammed-Alhuraibi/deployment_test
+               token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+           - name: Update deployment.yaml
+             run: |
+               sed -i "s|image: .*$|image: ${{ env.IMAGE_TAG }}|" deployment.yaml
+           - name: Commit and Push Changes
+             run: |
+               git add deployment.yaml
+               git commit -m "Update deployment image to ${{ env.IMAGE_TAG }}"
+               git push
